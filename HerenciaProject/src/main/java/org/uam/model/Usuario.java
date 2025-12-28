@@ -5,7 +5,7 @@ public abstract class Usuario {
     private String apellido;
     private String sexo;
     private boolean activo;
-
+    private EmailService emailService;
 
     public String getNombre() {
         return nombre;
